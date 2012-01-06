@@ -1,5 +1,9 @@
 $('section').each(function(index) {
 	load_widget(this);
+	if($(this).attr("id") && $(this).attr("data-refresh")) {
+		widget = $("section#" + $(this).attr("id"));
+		setInterval(function() { load_widget(widget); }, $(this).attr("data-refresh"));
+	}
 });
 
 function load_widget(widget){
