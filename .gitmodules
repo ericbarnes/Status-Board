@@ -1,0 +1,3 @@
+[submodule "public/js/frameless"]
+	path = public/js/frameless
+	url = https://github.com/jonikorpi/Frameless.git
