@@ -29,22 +29,6 @@ header {
 	padding: 5px 0;
 }
 
-.tiny {
-	width: 14.5%;
-	min-width: 200px;
-}
-.small {
-	width: 30%;
-	min-width: 200px;
-}
-.medium {
-	width: 60.8%;
-	height: 300px;
-}
-.large {
-	width: 91.5%;
-}
-
 h1 {
 	font: bold 14px/130% Verdana, Arial, Helvetica, sans-serif;
 	background: none;
@@ -80,3 +64,188 @@ a:hover {
 .clearfix { zoom: 1; }
 
 .ui-state-highlight { width: 300px; height: 200px; line-height: 1.2em; }
+
+/*
+ * Scaffolding
+ * Basic and global styles for generating a grid system, structural layout, and page templates.
+ * Lifted from bootstrap, this is all we needed though.
+ * ------------------------------------------------------------------------------------------- */
+.container-fluid {
+  position: relative;
+  min-width: 940px;
+  padding-left: 20px;
+  padding-right: 20px;
+  zoom: 1;
+}
+.container-fluid:before, .container-fluid:after {
+  display: table;
+  content: "";
+  zoom: 1;
+}
+.container-fluid:after {
+  clear: both;
+}
+.container-fluid > .sidebar {
+  position: absolute;
+  top: 0;
+  left: 20px;
+  width: 220px;
+}
+.container-fluid > .content {
+  margin-left: 240px;
+}
+a {
+  color: #0069d6;
+  text-decoration: none;
+  line-height: inherit;
+  font-weight: inherit;
+}
+.pull-right {
+  float: right;
+}
+.pull-left {
+  float: left;
+}
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+}
+.row {
+  zoom: 1;
+  margin-left: -20px;
+}
+.row:before, .row:after {
+  display: table;
+  content: "";
+  zoom: 1;
+}
+.row:after {
+  clear: both;
+}
+.row > [class*="span"] {
+  display: inline;
+  float: left;
+  margin-left: 20px;
+}
+.span1 {
+  width: 40px;
+}
+.span2 {
+  width: 100px;
+}
+.span3 {
+  width: 160px;
+}
+.span4 {
+  width: 220px;
+}
+.span5 {
+  width: 280px;
+}
+.span6 {
+  width: 340px;
+}
+.span7 {
+  width: 400px;
+}
+.span8 {
+  width: 460px;
+}
+.span9 {
+  width: 520px;
+}
+.span10 {
+  width: 580px;
+}
+.span11 {
+  width: 640px;
+}
+.span12 {
+  width: 700px;
+}
+.span13 {
+  width: 760px;
+}
+.span14 {
+  width: 820px;
+}
+.span15 {
+  width: 880px;
+}
+.span16 {
+  width: 940px;
+}
+.span17 {
+  width: 1000px;
+}
+.span18 {
+  width: 1060px;
+}
+.span19 {
+  width: 1120px;
+}
+.span20 {
+  width: 1180px;
+}
+.span21 {
+  width: 1240px;
+}
+.span22 {
+  width: 1300px;
+}
+.span23 {
+  width: 1360px;
+}
+.span24 {
+  width: 1420px;
+}
+.row > .offset1 {
+  margin-left: 80px;
+}
+.row > .offset2 {
+  margin-left: 140px;
+}
+.row > .offset3 {
+  margin-left: 200px;
+}
+.row > .offset4 {
+  margin-left: 260px;
+}
+.row > .offset5 {
+  margin-left: 320px;
+}
+.row > .offset6 {
+  margin-left: 380px;
+}
+.row > .offset7 {
+  margin-left: 440px;
+}
+.row > .offset8 {
+  margin-left: 500px;
+}
+.row > .offset9 {
+  margin-left: 560px;
+}
+.row > .offset10 {
+  margin-left: 620px;
+}
+.row > .offset11 {
+  margin-left: 680px;
+}
+.row > .offset12 {
+  margin-left: 740px;
+}
+.span-one-third {
+  width: 300px;
+}
+.span-two-thirds {
+  width: 620px;
+}
+.row > .offset-one-third {
+  margin-left: 340px;
+}
+.row > .offset-two-thirds {
+  margin-left: 660px;
+}
