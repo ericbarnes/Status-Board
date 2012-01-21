@@ -17,6 +17,8 @@ return array(
 		'class'    => 'small',
 		'zip'      => 28056,
 		'interval' => 3600,
+		'width'    => 'span6',
+		'height'   => 'height4'
 	),
 
 	'githubissues_laravel' => array(
@@ -24,7 +26,9 @@ return array(
 		'class'   => 'small',
 		'user'    => 'laravel',
 		'project' => 'laravel',
-		'label'   => 'open'
+		'label'   => 'open',
+		'width'    => 'span10',
+		'height'   => 'height4'
 	),
 
 	'githubcommits_laravel' => array(
@@ -32,7 +36,9 @@ return array(
 		'class'   => 'small',
 		'user'    => 'laravel',
 		'project' => 'laravel',
-		'branch'  => 'skunkworks'
+		'branch'  => 'skunkworks',
+		'width'    => 'span4',
+		'height'   => 'height4'
 	),
 
 	'githubissues_statusb' => array(
@@ -40,7 +46,9 @@ return array(
 		'class'   => 'small',
 		'user'    => 'ericbarnes',
 		'project' => 'Status-Board',
-		'label'   => 'open'
+		'label'   => 'open',
+		'width'    => 'span4',
+		'height'   => 'height4'
 	),
 
 	'githubcommits_statusb' => array(
@@ -48,7 +56,9 @@ return array(
 		'class'   => 'small',
 		'user'    => 'ericbarnes',
 		'project' => 'Status-Board',
-		'branch'  => 'develop'
+		'branch'  => 'develop',
+		'width'    => 'span4',
+		'height'   => 'height4'
 	),
 
 	'twitter_laravel' => array(
@@ -56,18 +66,24 @@ return array(
 		'class'    => 'small',
 		'search'   => 'laravel',
 		'interval' => 300,
+		'width'    => 'span4',
+		'height'   => 'height4'
 	),
 
 	'twitter_helpspot' => array(
 		'widget'  => 'twitter',
 		'class'   => 'small',
 		'search'  => 'helpspot',
+		'width'    => 'span4',
+		'height'   => 'height4'
 	),
 
 	'twitter_ericlbarnes' => array(
 		'widget' => 'twitter',
 		'class'  => 'small',
 		'search' => 'ericlbarnes',
+		'width'    => 'span4',
+		'height'   => 'height4'
 	),
 
 	'stocks' => array(
@@ -75,6 +91,8 @@ return array(
 		'class'    => 'small',
 		'exchange' => 'NASDAQ',
 		'symbol'   => 'GOOG',
+		'width'    => 'span4',
+		'height'   => 'height4'
 	),
 
 	'rss' => array(
@@ -83,6 +101,8 @@ return array(
 		'class'     => 'small',
 		'site'      => 'The Onion',
 		'feedcount' => 5,
+		'width'    => 'span4',
+		'height'   => 'height4'
 	),
 /* 
 // EXAMPLE Google Analytics widgets

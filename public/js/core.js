@@ -25,7 +25,7 @@ $(document).ready(function() {
 		for (key in data) {
 			a.push(key+"="+data[key]);
 		}
-		a.push("size="+$(widget).attr('class'));
+		a.push("size="+$(widget).attr('rel'));
 		var serialized = a.join("&");
 
 		// Initial loading of widget
